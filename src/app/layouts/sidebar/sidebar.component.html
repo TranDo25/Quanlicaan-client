@@ -1,0 +1,48 @@
+<mat-sidenav-container>
+  <mat-sidenav  class="mat-elevation-z4" #sidenav="matSidenav">
+    <img class="avatar-img mat-elevation-z2"
+         src="data:image/png;base64,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">
+    <h4 class="name">
+      Trần Xuân Độ
+    </h4>
+    <p class="designation">
+      Software Engineer
+    </p>
+    <button mat-button class="menu-button">
+      <mat-icon>supervisor_account</mat-icon>
+      <span>Nhân viên</span>
+    </button>
+    <button mat-button class="menu-button">
+      <mat-icon>meeting_room</mat-icon>
+      <span>Phòng ban</span>
+    </button>
+
+    <button mat-button class="menu-button" mat-button [matMenuTriggerFor]="dangKyCaAn">
+      <mat-icon>donut_small</mat-icon>
+      <span>Đăng ký ca ăn</span>
+      <mat-menu #dangKyCaAn="matMenu">
+        <button mat-menu-item>Cá nhân</button>
+        <button mat-menu-item>Tập thể</button>
+      </mat-menu>
+    </button>
+    <mat-divider></mat-divider>
+    <button mat-button [matMenuTriggerFor]="thongKe" class="menu-button">
+      <mat-icon>assessment</mat-icon>
+      <span>Thống kê</span>
+
+      <mat-menu #thongKe="matMenu">
+        <button mat-menu-item>Thống kê cá nhân</button>
+        <button mat-menu-item>Thống kê theo ngày</button>
+        <button mat-menu-item>Thống kê theo tháng</button>
+      </mat-menu>
+    </button>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-nhanvien></app-nhanvien>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
