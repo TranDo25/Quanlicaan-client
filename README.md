@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## some product image
+![image](https://github.com/TranDo25/Quanlicaan-client/assets/73243952/9742c272-78cb-4ba4-ba29-60e1079e6300)
